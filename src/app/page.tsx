@@ -197,8 +197,6 @@ export default function Home() {
         </div>
       </section>
 
-      <Testimonials />
-
       <section className="px-6 py-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
@@ -263,6 +261,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       <section className="bg-card/30 px-6 py-20">
         <div className="mx-auto max-w-5xl rounded-[2rem] border border-border/50 bg-background/70 p-8 md:p-10">
