@@ -204,29 +204,50 @@ export default function Home() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div className="order-2 lg:order-1">
               <p className="mb-4 text-sm uppercase tracking-[0.3em] text-warm/60">
-                The Practice of
+                1:1 Mentorship
               </p>
               <h2
-                className="mb-2 text-3xl font-bold text-foreground md:text-4xl"
+                className="mb-3 text-3xl font-bold text-foreground md:text-4xl"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                EMBODIED LISTENING
+                Embodied listening, direct guidance, and deeper practice.
               </h2>
-              <p className="mb-8 text-lg text-muted-foreground">
+              <p className="mb-6 text-lg text-muted-foreground">
                 Mentorship with Michael Bernal
               </p>
-              <p className="mb-8 leading-relaxed text-muted-foreground">
-                Deepen your practice through one-on-one guidance. Michael offers
-                personalized mentorship for those seeking to explore the depths
-                of contact improvisation, somatic awareness, and relational
-                intelligence.
-              </p>
-              <Link
-                href="/mentor"
-                className="inline-flex items-center gap-2 rounded-full border border-warm/50 px-8 py-3.5 font-medium text-warm transition-all hover:bg-warm hover:text-background"
-              >
-                Explore Mentorship
-              </Link>
+              <div className="space-y-5 leading-relaxed text-muted-foreground">
+                <p>
+                  This mentorship is for movers, teachers, and curious humans
+                  who want more personalized support than a group series can
+                  offer. The focus is not only skill-building, but also how
+                  your practice meets your real life.
+                </p>
+                <p>
+                  Work one-on-one with Michael to refine your relationship to
+                  contact improvisation, deepen somatic awareness, build
+                  confidence, and receive tailored feedback that responds to
+                  where you actually are.
+                </p>
+                <p>
+                  If the series opens the door, mentorship offers a more
+                  spacious container to integrate, question, experiment, and
+                  grow with direct support.
+                </p>
+              </div>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link
+                  href="/mentor"
+                  className="inline-flex items-center gap-2 rounded-full bg-warm px-8 py-3.5 font-medium text-background transition-colors hover:bg-warm-light"
+                >
+                  View Mentorship Details
+                </Link>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 rounded-full border border-warm/50 px-8 py-3.5 font-medium text-warm transition-all hover:bg-warm hover:text-background"
+                >
+                  Ask About Mentorship
+                </Link>
+              </div>
             </div>
 
             <div className="order-1 relative aspect-[4/3] overflow-hidden rounded-2xl lg:order-2">
