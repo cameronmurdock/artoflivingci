@@ -69,10 +69,10 @@ export default function Home() {
               style={{ animationDelay: "0.3s" }}
             >
               <Link
-                href="/events/art-of-living-round-12"
+                href="/mentor"
                 className="rounded-full bg-warm px-8 py-3.5 font-medium text-background transition-colors hover:bg-warm-light"
               >
-                Join Round 12
+                Mentorship
               </Link>
               <Link
                 href="/about"
