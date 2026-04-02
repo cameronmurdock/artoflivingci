@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 import path from "node:path";
 
+const hasCustomDomain = process.env.CUSTOM_DOMAIN === "true";
 const isPagesBuild = process.env.GITHUB_ACTIONS === "true";
 const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const basePath = isPagesBuild && repoName ? `/${repoName}` : "";
+const basePath = isPagesBuild && repoName && !hasCustomDomain ? `/${repoName}` : "";
 
 const nextConfig: NextConfig = {
   output: "export",
