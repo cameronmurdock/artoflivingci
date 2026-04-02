@@ -3,7 +3,7 @@ import Link from "next/link";
 import { contactInfo } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "Open Jam & Workshop :: Art of Living CI",
+  title: "Open Jam & Workshop :: Denver Contact Improv",
   description: "Open jam for play and skill building.",
 };
 

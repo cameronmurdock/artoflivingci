@@ -3,9 +3,9 @@ import Link from "next/link";
 import { upcomingEvents } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "Series & Events :: Art of Living CI",
+  title: "Events :: Denver Contact Improv",
   description:
-    "Current Art of Living series dates, mentorship offerings, and selected community practice opportunities.",
+    "Upcoming classes, workshops, jams, and immersive offerings from Denver Contact Improv.",
 };
 
 export default function EventsPage() {
@@ -21,11 +21,11 @@ export default function EventsPage() {
             className="max-w-3xl text-4xl font-bold text-foreground md:text-6xl"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Series, mentorship, and community practice.
+            Weekly practice, immersive series, and community gatherings.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Explore current Art of Living offerings with Michael Bernal, plus
-            related community practice in the wider Denver ecosystem.
+            Explore current classes, workshops, and community gatherings in the
+            Denver Contact Improv orbit.
           </p>
         </div>
       </section>
@@ -37,12 +37,12 @@ export default function EventsPage() {
               key={event.slug}
               className={`rounded-[2rem] border p-8 ${
                 event.featured
-                  ? "border-warm/30 bg-card shadow-[0_24px_80px_rgba(58,37,24,0.08)]"
+                  ? "border-warm/30 bg-card shadow-[0_24px_80px_rgba(58,37,24,0.08)] lg:col-span-2"
                   : "border-border/60 bg-card/60"
               }`}
             >
               <p className="text-xs uppercase tracking-[0.28em] text-warm/80">
-                {event.featured ? "Featured" : "Community Offering"}
+                {event.featured ? "Featured" : event.type}
               </p>
               <h2
                 className="mt-4 text-3xl font-bold text-foreground"

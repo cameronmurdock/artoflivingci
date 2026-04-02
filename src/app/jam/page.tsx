@@ -4,8 +4,8 @@ import Link from "next/link";
 import { imagePath } from "@/lib/paths";
 
 export const metadata: Metadata = {
-  title: "Monday Jam :: Art of Living CI",
-  description: "Learn about the Monday community jam connected to the wider Denver Contact Improvisation practice.",
+  title: "Jam :: Denver Contact Improv",
+  description: "Join us every Monday for our Denver Contact Improv Jam",
 };
 
 const introParagraphs = [

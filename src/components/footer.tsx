@@ -12,15 +12,14 @@ export function Footer() {
               className="text-xl font-bold text-warm"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Art of Living CI
+              Denver Contact Improv
             </Link>
             <p className="text-sm text-muted-foreground">
-              Embodiment. Connection. Presence.
+              Movement. Connection. Community.
             </p>
             <p className="text-sm text-muted-foreground max-w-sm">
-              Michael Bernal&apos;s Art of Living series, mentorship, and
-              community practice rooted in consent, listening, and embodied
-              connection.
+              Weekly jam, classes, workshops, and mentorship rooted in consent,
+              listening, and embodied connection.
             </p>
           </div>
 
@@ -29,16 +28,16 @@ export function Footer() {
               Explore
             </p>
             <Link
-              href="/events/art-of-living-round-12"
+              href="/jam"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Round 12
+              Monday Jam
             </Link>
             <Link
               href="/events"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Series + Events
+              Events
             </Link>
             <Link
               href="/mentor"
@@ -47,16 +46,10 @@ export function Footer() {
               Mentorship
             </Link>
             <Link
-              href="/jam"
+              href="/guidelines"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Monday Jam
-            </Link>
-            <Link
-              href="/about"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About Michael
+              Guidelines
             </Link>
           </div>
 
@@ -88,7 +81,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/30 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; 2026 Art of Living CI. All rights reserved.
+            &copy; 2026 Denver Contact Improv. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             website by{" "}

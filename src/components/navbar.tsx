@@ -5,10 +5,10 @@ import { useState } from "react";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/events", label: "Series" },
+  { href: "/jam", label: "Jam" },
+  { href: "/events", label: "Events" },
   { href: "/about", label: "About" },
-  { href: "/mentor", label: "Mentorship" },
-  { href: "/testimonials", label: "Testimonials" },
+  { href: "/guidelines", label: "Guidelines" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
@@ -24,7 +24,7 @@ export function Navbar() {
             className="text-2xl font-bold tracking-tight text-warm"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            AOL
+            DCI
           </Link>
 
           {/* Desktop nav */}

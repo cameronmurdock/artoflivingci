@@ -15,9 +15,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Art of Living CI",
+  title: "Denver Contact Improv",
   description:
-    "Art of Living CI with Michael Bernal — contact improvisation series, mentorship, and embodied practice rooted in connection, presence, and trust.",
+    "Discover Denver Contact Improv — dynamic movement community exploring connection, spontaneity, and embodied creativity through contact improvisation.",
 };
 
 export default function RootLayout({

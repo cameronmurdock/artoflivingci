@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { guidelineSections } from "@/lib/site-data";
 
 export const metadata: Metadata = {
-  title: "Guidelines :: Art of Living CI",
+  title: "Guidelines :: Denver Contact Improv",
   description:
-    "Explore the values and guidelines that shape Art of Living CI, including consent, safety, inclusion, and collective care.",
+    "Explore the values and guidelines of Denver Contact Improv, including consent, safety, inclusion, and collective care.",
 };
 
 export default function GuidelinesPage() {
@@ -22,7 +22,7 @@ export default function GuidelinesPage() {
             Consent, clarity, and collective care.
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-muted-foreground">
-            Explore the values and guidelines that shape Art of Living CI,
+            Explore the values and guidelines of Denver Contact Improv,
             including principles of consent, safety, inclusion, and collective
             care. Learn how we cultivate a supportive, respectful, and mindful
             dance space for all participants.

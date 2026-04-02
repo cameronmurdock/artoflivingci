@@ -21,9 +21,9 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Get in touch with Michael about the Art of Living series,
-            mentorship, or the wider practice. Send anonymous feedback, ask
-            questions, or reach out directly.
+            Get in touch with Denver Contact Improvisation. Send anonymous
+            feedback, ask questions, or share suggestions to help us grow a
+            safe, connected, and inclusive dance community.
           </p>
         </div>
       </section>
@@ -42,14 +42,14 @@ export default function ContactPage() {
             </p>
 
             <form
-              action="https://formspree.io/f/xzdkdbkp"
+              action="https://formspree.io/f/mpqoqzqr"
               method="POST"
               className="mt-8 space-y-5"
             >
               <input
                 type="hidden"
                 name="_subject"
-                value="Art of Living CI inquiry"
+                value="Denver Contact Improv inquiry"
               />
               <input type="hidden" name="_template" value="table" />
 
