@@ -37,6 +37,7 @@ jobs:
         run: npm run build
         env:
           CUSTOM_DOMAIN: "true"
+          SANITY_API_READ_TOKEN: ${{ secrets.SANITY_API_READ_TOKEN }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
