@@ -9,8 +9,6 @@ const DEFAULT_DESCRIPTION = [
   "In Denver, we gather to move, to listen with our bodies, to meet uncertainty with curiosity and care.",
   "Contact Improvisation is our language, a place to practice presence, collaboration, and the quiet courage of leaning on one another.",
   "This website is created and maintained by Michael Bernal. It shares information about his classes, guest teachers, and other Contact Improvisation opportunities in Denver.",
-  "Our weekly jam, co-founded and held by a group of ten space holders, is a space to play, explore, and be fully seen.",
-  "For details about the jam, please visit denvercontactjam.com (coming soon)",
   "Come dance with us, everyone is welcome!",
 ];
 
