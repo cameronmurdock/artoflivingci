@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { imagePath } from "@/lib/paths";
 
-const EVENT_TESTIMONIALS = [
-  {
-    name: "Anastasia Hill",
-    image: imagePath("/images/testimonial-anastasia.jpg"),
-    text: "I had no idea what I was getting into when I took Michael's Art of Living series, and was honestly hesitant bc not all dance spaces are as safe as they seem, but the container Michael creates is truly life changing. Michael has an almost therapeutic approach, focusing on somatic experience and self-awareness through platonic connection. This practice has softened my spirit to deeper connection and deepened my listening to both my own body and others'. Not only do I feel more embodied than I ever have, but I feel more regulated and full of love. 10/10 highly recommend his transformational teachings!",
+export const metadata: Metadata = {
+  title: "Art of Living Round 13 — Contact Improv Series in Denver",
+  description:
+    "A Three-Class Contact Improvisation Series with Michael Bernal. May 20, 27 & 30, 2026 at Silver City, Denver.",
+  alternates: {
+    canonical: "https://denvercontactimprov.com/events/art-of-living-round-13/",
   },
+};
+
+const EVENT_TESTIMONIALS = [
   {
     name: "Brooke Alexander",
     image: imagePath("/images/testimonial-brooke.jpg"),
@@ -26,7 +30,7 @@ const EVENT_TESTIMONIALS = [
   {
     name: "Gabrielle Hillis",
     image: imagePath("/images/testimonial-gabrielle.jpg"),
-    text: "For me, what is so enthralling and addictive about Michael's CI series is that they feel like laboratory spaces\u2014places where we get to be true students of this sport, students of this art form. I was a highly competitive athlete for most of my life, and when I retired, I experienced an identity and purpose crisis. I deeply missed the mind-body connection required to excel in sport. Michael's classes have become that place for me again. I feel nourished, accomplished, fulfilled, and grounded when I am a student of contact improv, a student of my own body and mind, and a student of others. It is a brilliant and safe space curated for curiosity\u2014where questions are welcomed, experiments unfold, and new concepts are continuously uncovered. Thank you, thank you, thank you for creating and holding this recurring space where mind meets body and body meets mind and we all learn together!",
+    text: "For me, what is so enthralling and addictive about Michael's CI series is that they feel like laboratory spaces—places where we get to be true students of this sport, students of this art form. I was a highly competitive athlete for most of my life, and when I retired, I experienced an identity and purpose crisis. I deeply missed the mind-body connection required to excel in sport. Michael's classes have become that place for me again. I feel nourished, accomplished, fulfilled, and grounded when I am a student of contact improv, a student of my own body and mind, and a student of others. It is a brilliant and safe space curated for curiosity—where questions are welcomed, experiments unfold, and new concepts are continuously uncovered. Thank you, thank you, thank you for creating and holding this recurring space where mind meets body and body meets mind and we all learn together!",
   },
   {
     name: "Karina Okoren",
@@ -35,20 +39,15 @@ const EVENT_TESTIMONIALS = [
   },
 ] as const;
 
-export const metadata: Metadata = {
-  title: "The Art of Living: Durango CI Intensive :: Denver Contact Improv",
-  description:
-    "A Contact Improvisation Intensive with Michael Bernal. April 19, 2026. Sunday 10 am - 6 pm. Smiley Building Studio 208, Durango, CO.",
-};
-
 export default function EventPage() {
   return (
     <>
+      {/* Hero */}
       <section className="relative pt-24 pb-0 overflow-hidden">
         <div className="relative aspect-[21/9] max-h-[500px] w-full">
           <Image
             src={imagePath("/images/event-banner.jpg")}
-            alt="The Art of Living: Durango CI Intensive"
+            alt="Art of Living Round 13"
             fill
             className="object-cover"
             priority
@@ -58,29 +57,35 @@ export default function EventPage() {
         </div>
       </section>
 
+      {/* Event Info */}
       <section className="px-6 pb-16 -mt-24 relative z-10">
         <div className="mx-auto max-w-4xl">
           <div className="bg-card border border-border/50 rounded-2xl p-8 md:p-12">
             <p className="text-warm text-sm tracking-[0.2em] uppercase mb-4">
-              Workshop
+              Upcoming Series
             </p>
             <h1
               className="text-3xl md:text-5xl font-bold mb-6 text-foreground"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              The Art of Living: Durango CI Intensive
+              Art of Living Round 13
             </h1>
-            <p className="text-lg text-muted-foreground mb-8">
-              A Contact Improvisation Intensive with Michael Bernal
+            <p className="text-lg text-muted-foreground mb-2">
+              A Three-Class Contact Improvisation Series with Michael Bernal
+            </p>
+            <p className="italic text-muted-foreground mb-8">
+              No experience needed. Come as you are and discover freedom,
+              belonging, and play.
             </p>
 
+            {/* Details Grid */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
               <div className="p-4 bg-secondary/50 rounded-xl">
                 <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1">
-                  Date
+                  Dates
                 </p>
                 <p className="text-sm font-medium text-foreground">
-                  April 19, 2026
+                  May 20, 27 &amp; 30, 2026
                 </p>
               </div>
               <div className="p-4 bg-secondary/50 rounded-xl">
@@ -88,7 +93,9 @@ export default function EventPage() {
                   Time
                 </p>
                 <p className="text-sm font-medium text-foreground">
-                  Sunday 10 am - 6 pm (1-3 pm break)
+                  May 20 &amp; 27 &middot; 6:15&ndash;8:45 PM
+                  <br />
+                  May 30 &middot; 12:00&ndash;2:30 PM
                 </p>
               </div>
               <div className="p-4 bg-secondary/50 rounded-xl">
@@ -96,7 +103,9 @@ export default function EventPage() {
                   Location
                 </p>
                 <p className="text-sm font-medium text-foreground">
-                  Smiley Building Studio 208 Durango, CO
+                  Silver City
+                  <br />
+                  2121 Larimer St, Denver, CO 80205
                 </p>
               </div>
               <div className="p-4 bg-secondary/50 rounded-xl">
@@ -109,29 +118,31 @@ export default function EventPage() {
               </div>
             </div>
 
+            {/* Description */}
             <div className="prose prose-invert max-w-none">
               <p className="text-muted-foreground leading-relaxed">
-                In this intensive we will utilize the interplay between solo
-                &amp; partner (ensemble) practices &amp; games. Learning to self
-                and co-regulate our nervous systems. Growing trust, listening
-                &amp; care for ourselves &amp; each other. We will experience
-                how to thrive with the inevitable hardships of life. Learn the
-                art of consent. Cultivate our attention &amp; equanimity.
-                Enhance our social &amp; physical interactions for genuine
-                heartfelt connections. We will do this through the lens of
-                contact improvisation via felt physics, relational intelligence
-                &amp; somatic self-observation. This will allow you to break
-                habit patterns that no longer serve you. Allow a sense of
-                belonging (interbeing). Cultivate confidence in your
-                body&apos;s capacity to move &amp; improvise. Create a practice
-                that enriches your life &amp; helps you develop your mind-body
-                capacity for true empowerment &amp; freedom.
+                In this series we will utilize the interplay between solo &amp;
+                partner (ensemble) practices &amp; games. Learning to self and
+                co-regulate our nervous systems. Growing trust, listening &amp;
+                care for ourselves &amp; each other. We will experience how to
+                thrive with the inevitable hardships of life. Learn the art of
+                consent. Cultivate our attention &amp; equanimity. Enhance our
+                social &amp; physical interactions for genuine heartfelt
+                connections. We will do this through the lens of contact
+                improvisation via felt physics, relational intelligence &amp;
+                somatic self-observation. This will allow you to break habit
+                patterns that no longer serve you. Allow a sense of belonging
+                (interbeing). Cultivate confidence in your body&apos;s capacity
+                to move &amp; improvise. Create a practice that enriches your
+                life &amp; helps you develop your mind-body capacity for true
+                empowerment &amp; freedom.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Pricing */}
       <section className="py-16 px-6 bg-card/30">
         <div className="mx-auto max-w-4xl">
           <h2
@@ -147,7 +158,7 @@ export default function EventPage() {
                 SOLD OUT
               </div>
               <p className="text-sm text-muted-foreground mb-1">Early Bird</p>
-              <p className="text-3xl font-bold text-foreground mb-1">$144</p>
+              <p className="text-3xl font-bold text-foreground mb-1">$188</p>
               <p className="text-xs text-muted-foreground">
                 First 5 to register
               </p>
@@ -155,36 +166,29 @@ export default function EventPage() {
 
             <div className="p-6 border border-warm/30 rounded-2xl bg-card ring-1 ring-warm/20">
               <p className="text-sm text-warm mb-1">Regular Registration</p>
-              <p className="text-3xl font-bold text-foreground mb-1">$222</p>
+              <p className="text-3xl font-bold text-foreground mb-1">$299</p>
               <p className="text-xs text-muted-foreground">Open enrollment</p>
             </div>
           </div>
 
           <div className="space-y-4 text-sm text-muted-foreground">
-            <p className="text-xs">
-              * Registration may be transferred, no refunds
-            </p>
             <p>
               <span className="text-foreground font-medium">
-                Educator Discount Available:
-              </span>{" "}
-              Special pricing for professional dancers, artists, and teachers.
-            </p>
-            <p>
-              <span className="text-foreground font-medium">
-                Sliding Scale Available:
+                Community Pricing &middot; Sliding Scale:
               </span>{" "}
               Our pricing is community-supported. When you pay the full price or
               more, you help make it possible for someone else to attend at a
               deeply discounted rate.
             </p>
             <p className="italic">
-              If cost is a barrier, simply ask, and you shall receive! We&apos;re
-              happy to offer sliding scale support so everyone who wants to be
-              here can join.
+              If cost is a barrier, reach out &mdash; we&apos;ll make it work.
+            </p>
+            <p className="text-xs">
+              No refunds &middot; Registration is transferable.
             </p>
           </div>
 
+          {/* Registration Method */}
           <div className="mt-10 p-8 bg-card border border-border/50 rounded-2xl text-center">
             <h3 className="text-lg font-semibold text-foreground mb-4">
               To Register
@@ -198,14 +202,23 @@ export default function EventPage() {
             <p className="text-muted-foreground mb-6">
               Instagram:{" "}
               <a
-                href="https://www.instagram.com/the.embodied.man"
+                href="https://www.instagram.com/denvercontactimprov"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-warm hover:text-warm-light transition-colors"
               >
-                @the.embodied.man
+                @denvercontactimprov
               </a>
             </p>
+            <div className="relative w-64 mx-auto aspect-[16/10] rounded-xl overflow-hidden">
+              <Image
+                src={imagePath("/images/venmo-qr.jpg")}
+                alt="Venmo QR code for Michael Bernal"
+                fill
+                className="object-cover"
+                sizes="256px"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -243,6 +256,21 @@ export default function EventPage() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Flyer */}
+      <section className="py-16 px-6 bg-card/30">
+        <div className="mx-auto max-w-md">
+          <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src={imagePath("/images/art-of-living-round-13-flyer.jpg")}
+              alt="Art of Living Round 13 flyer"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 448px"
+            />
           </div>
         </div>
       </section>
