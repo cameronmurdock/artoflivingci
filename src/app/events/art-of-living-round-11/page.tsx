@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "A Four-Week Contact Improvisation Series with Michael Bernal. March 18 - April 8, 2026. Wednesdays 6:15pm - 8:45pm.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/events/art-of-living-round-11/",
+    canonical: "https://artoflivingci.com/events/art-of-living-round-11/",
   },
 };
 

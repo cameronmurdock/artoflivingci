@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Contact Improvisation, often called Contact Improv or CI, is a movement practice rooted in listening, touch, improvisation, and shared physical awareness. Learn what to expect at classes and jams in Denver, Colorado.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/blog/what-is-contact-improvisation/",
+    canonical: "https://artoflivingci.com/blog/what-is-contact-improvisation/",
   },
   openGraph: {
     title: "What is Contact Improvisation? A Beginner\u2019s Guide",
     description:
       "Contact Improvisation is a movement practice rooted in listening, touch, and shared physical awareness. Learn what to expect at classes and jams in Denver.",
-    url: "https://denvercontactimprov.com/blog/what-is-contact-improvisation/",
+    url: "https://artoflivingci.com/blog/what-is-contact-improvisation/",
     type: "article",
   },
 };
@@ -32,11 +32,11 @@ const articleJsonLd = {
   publisher: {
     "@type": "Organization",
     name: "Denver Contact Improv",
-    url: "https://denvercontactimprov.com",
+    url: "https://artoflivingci.com",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://denvercontactimprov.com/blog/what-is-contact-improvisation/",
+    "@id": "https://artoflivingci.com/blog/what-is-contact-improvisation/",
   },
 };
 

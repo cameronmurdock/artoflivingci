@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Frequently asked questions about Contact Improvisation, Denver Contact Improv classes, jams, and community events. What to wear, how to get started, and more.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/faq/",
+    canonical: "https://artoflivingci.com/faq/",
   },
   openGraph: {
     title: "FAQ — Denver Contact Improv",
     description:
       "Frequently asked questions about Contact Improvisation classes, jams, and community events in Denver.",
-    url: "https://denvercontactimprov.com/faq/",
+    url: "https://artoflivingci.com/faq/",
   },
 };
 

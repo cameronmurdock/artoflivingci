@@ -15,6 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  // Absolute base for canonical and og URLs emitted by Next.
+  metadataBase: new URL("https://artoflivingci.com"),
   title: {
     default: "Denver Contact Improv — Contact Improvisation Classes, Jams & Community in Denver, CO",
     template: "%s :: Denver Contact Improv",
@@ -45,22 +47,24 @@ export const metadata: Metadata = {
     "contact dance Denver Colorado",
   ],
   openGraph: {
+    images: [{ url: "/images/mentorship.jpg", width: 1200, height: 630, alt: "Contact Improvisation in Denver, Colorado" }],
     title: "Denver Contact Improv — Contact Improvisation Classes & Community",
     description:
       "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO. Offering weekly gatherings and immersive experiences rooted in belonging.",
-    url: "https://denvercontactimprov.com",
+    url: "https://artoflivingci.com",
     siteName: "Denver Contact Improv",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/images/mentorship.jpg"],
     title: "Denver Contact Improv — Contact Improvisation Classes & Community",
     description:
       "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO.",
   },
   alternates: {
-    canonical: "https://denvercontactimprov.com",
+    canonical: "https://artoflivingci.com",
   },
   robots: {
     index: true,
@@ -92,7 +96,7 @@ export default function RootLayout({
               name: "Denver Contact Improv",
               description:
                 "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, Colorado.",
-              url: "https://denvercontactimprov.com",
+              url: "https://artoflivingci.com",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Denver",
@@ -118,7 +122,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Denver Contact Improv",
-              url: "https://denvercontactimprov.com",
+              url: "https://artoflivingci.com",
             }),
           }}
         />

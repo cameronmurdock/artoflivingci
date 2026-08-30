@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A Four-Week beginner-friendly Contact Improvisation Series with Michael Bernal. Wednesdays Aug 5 – Sept 2, 2026 at The Savoy Denver. No experience needed.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/events/art-of-living-aug-2026/",
+    canonical: "https://artoflivingci.com/events/art-of-living-aug-2026/",
   },
   openGraph: {
     title: "The Art of Living — Aug 2026 Contact Improv Series",
     description:
       "Four-Week Contact Improvisation Series with Michael Bernal. Aug 5 – Sept 2, 2026 at The Savoy Denver.",
-    url: "https://denvercontactimprov.com/events/art-of-living-aug-2026/",
+    url: "https://artoflivingci.com/events/art-of-living-aug-2026/",
   },
 };
 

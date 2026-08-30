@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Meet Michael Bernal, the movement teacher behind Denver Contact Improv. Learn about our story, our values, and the growing Contact Improvisation community in Denver, Colorado.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/about/",
+    canonical: "https://artoflivingci.com/about/",
   },
   openGraph: {
     title: "About Us — Denver Contact Improv",
     description:
       "Meet Michael Bernal, the movement teacher behind Denver Contact Improv. Learn about our story and the growing Contact Improvisation community in Denver, CO.",
-    url: "https://denvercontactimprov.com/about/",
+    url: "https://artoflivingci.com/about/",
   },
 };
 

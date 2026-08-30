@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Join Denver Contact Improv for our weekly Contact Improvisation jam. A shared space for spontaneous movement, weight-sharing, and community connection in Denver, Colorado.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/jam/",
+    canonical: "https://artoflivingci.com/jam/",
   },
   openGraph: {
     title: "Contact Improv Jam — Denver Contact Improv",
     description:
       "Weekly Contact Improvisation jam in Denver. A shared space for spontaneous movement and community connection.",
-    url: "https://denvercontactimprov.com/jam/",
+    url: "https://artoflivingci.com/jam/",
   },
 };
 

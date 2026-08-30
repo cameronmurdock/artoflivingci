@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Explore articles about Contact Improvisation, movement practices, and the Denver Contact Improv community. Guides for beginners and experienced practitioners.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/blog/",
+    canonical: "https://artoflivingci.com/blog/",
   },
   openGraph: {
     title: "Blog — Denver Contact Improv",
     description:
       "Articles about Contact Improvisation, movement practices, and the Denver Contact Improv community.",
-    url: "https://denvercontactimprov.com/blog/",
+    url: "https://artoflivingci.com/blog/",
   },
 };
 

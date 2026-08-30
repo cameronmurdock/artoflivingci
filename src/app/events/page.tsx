@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Browse upcoming Contact Improvisation classes, workshops, jams, and immersive series from Denver Contact Improv. Beginner-friendly offerings in Denver, Colorado.",
   alternates: {
-    canonical: "https://denvercontactimprov.com/events/",
+    canonical: "https://artoflivingci.com/events/",
   },
   openGraph: {
     title: "Events — Denver Contact Improv",
     description:
       "Upcoming Contact Improvisation classes, workshops, jams, and immersive offerings in Denver, CO.",
-    url: "https://denvercontactimprov.com/events/",
+    url: "https://artoflivingci.com/events/",
   },
 };
 
