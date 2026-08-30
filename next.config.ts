@@ -4,7 +4,10 @@ import path from "node:path";
 const hasCustomDomain = process.env.CUSTOM_DOMAIN === "true";
 const isPagesBuild = process.env.GITHUB_ACTIONS === "true";
 const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const basePath = isPagesBuild && repoName && !hasCustomDomain ? `/${repoName}` : "";
+// Set only for Builder preview builds, which are served under a URL
+// prefix. Empty for published builds, which are served at the domain root.
+const previewBasePath = process.env.PREVIEW_BASE_PATH ?? "";
+const basePath = previewBasePath;
 
 const nextConfig: NextConfig = {
   output: "export",
