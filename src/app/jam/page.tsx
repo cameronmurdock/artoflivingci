@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { imagePath } from "@/lib/paths";
-import { fetchJamPage } from "@/lib/sanity/queries";
 
 export const metadata: Metadata = {
   title: "Contact Improv Jam — Weekly Contact Improvisation Jam in Denver",
@@ -34,9 +33,8 @@ const jamParagraphs = [
 ];
 
 export default async function JamPage() {
-  const jamData = await fetchJamPage();
-  const intro: string[] = jamData?.introParagraphs ?? introParagraphs;
-  const jam: string[] = jamData?.jamParagraphs ?? jamParagraphs;
+  const intro: string[] = introParagraphs;
+  const jam: string[] = jamParagraphs;
 
   return (
     <>
