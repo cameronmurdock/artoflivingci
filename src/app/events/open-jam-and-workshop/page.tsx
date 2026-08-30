@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Join Denver Contact Improv for our open jam and workshop. A space for play, skill building, and community connection through Contact Improvisation in Denver, CO.",
   alternates: {
-    canonical: "https://artoflivingci.com/events/open-jam-and-workshop/",
+    canonical: "https://denvercontactimprov.com/events/open-jam-and-workshop/",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "A Three-Class Contact Improvisation Series with Michael Bernal. May 20, 27 & 30, 2026 at Silver City, Denver.",
   alternates: {
-    canonical: "https://artoflivingci.com/events/art-of-living-round-13/",
+    canonical: "https://denvercontactimprov.com/events/art-of-living-round-13/",
   },
 };
 

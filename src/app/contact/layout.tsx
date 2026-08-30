@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     "Contact Denver Contact Improv to ask questions, share feedback, or connect with Michael Bernal about Contact Improvisation classes, jams, and events in Denver, Colorado.",
   alternates: {
-    canonical: "https://artoflivingci.com/contact/",
+    canonical: "https://denvercontactimprov.com/contact/",
   },
   openGraph: {
     title: "Contact Us — Denver Contact Improv",
     description:
       "Get in touch with Denver Contact Improv. Ask questions or share feedback about our Contact Improvisation community.",
-    url: "https://artoflivingci.com/contact/",
+    url: "https://denvercontactimprov.com/contact/",
   },
 };
 

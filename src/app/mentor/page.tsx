@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Personalized one-on-one Contact Improvisation mentorship with Michael Bernal in Denver, CO. Embody the art, refine your teaching, and grow through real-world guidance and support.",
   alternates: {
-    canonical: "https://artoflivingci.com/mentor/",
+    canonical: "https://denvercontactimprov.com/mentor/",
   },
   openGraph: {
     title: "Mentorship — Denver Contact Improv",
     description:
       "Personalized Contact Improvisation mentorship with Michael Bernal in Denver. Embody the art, refine your teaching, and grow.",
-    url: "https://artoflivingci.com/mentor/",
+    url: "https://denvercontactimprov.com/mentor/",
   },
 };
 

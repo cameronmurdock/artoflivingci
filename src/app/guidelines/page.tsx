@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Explore the values and guidelines of Denver Contact Improv, including principles of consent, safety, inclusion, and collective care. Learn how we cultivate a supportive, respectful, and mindful dance space for all participants.",
   alternates: {
-    canonical: "https://artoflivingci.com/guidelines/",
+    canonical: "https://denvercontactimprov.com/guidelines/",
   },
   openGraph: {
     title: "Community Guidelines — Denver Contact Improv",
     description:
       "Our principles of consent, safety, inclusion, and collective care for a supportive Contact Improvisation community.",
-    url: "https://artoflivingci.com/guidelines/",
+    url: "https://denvercontactimprov.com/guidelines/",
   },
 };
 

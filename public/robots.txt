@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://artoflivingci.com/sitemap.xml
+Sitemap: https://denvercontactimprov.com/sitemap.xml

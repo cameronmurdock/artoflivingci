@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   // Absolute base for canonical and og URLs emitted by Next.
-  metadataBase: new URL("https://artoflivingci.com"),
+  metadataBase: new URL("https://denvercontactimprov.com"),
   title: {
     default: "Denver Contact Improv — Contact Improvisation Classes, Jams & Community in Denver, CO",
     template: "%s :: Denver Contact Improv",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Denver Contact Improv — Contact Improvisation Classes & Community",
     description:
       "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO. Offering weekly gatherings and immersive experiences rooted in belonging.",
-    url: "https://artoflivingci.com",
+    url: "https://denvercontactimprov.com",
     siteName: "Denver Contact Improv",
     locale: "en_US",
     type: "website",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO.",
   },
   alternates: {
-    canonical: "https://artoflivingci.com",
+    canonical: "https://denvercontactimprov.com",
   },
   robots: {
     index: true,
@@ -96,7 +96,7 @@ export default function RootLayout({
               name: "Denver Contact Improv",
               description:
                 "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, Colorado.",
-              url: "https://artoflivingci.com",
+              url: "https://denvercontactimprov.com",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Denver",
@@ -122,7 +122,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Denver Contact Improv",
-              url: "https://artoflivingci.com",
+              url: "https://denvercontactimprov.com",
             }),
           }}
         />
