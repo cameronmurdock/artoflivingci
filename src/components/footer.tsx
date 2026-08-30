@@ -100,7 +100,7 @@ export async function Footer() {
             Website is maintained by Michael Bernal.
           </p>
           <p className="text-xs text-muted-foreground">
-            website by{" "}
+            Website by{" "}
             <a
               href="https://camalot.me"
               target="_blank"
