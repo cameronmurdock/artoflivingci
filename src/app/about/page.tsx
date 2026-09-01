@@ -173,7 +173,7 @@ export default async function AboutPage() {
                 <p className="text-sm text-muted-foreground">
                   Instagram:{" "}
                   <a
-                    href="https://www.instagram.com/denvercontactimprov"
+                    href="https://www.instagram.com/artoflivingci"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-warm transition-colors hover:text-warm-light"

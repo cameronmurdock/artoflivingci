@@ -159,7 +159,7 @@ export default function EventPage() {
             <p className="text-muted-foreground mb-6">
               Instagram:{" "}
               <a
-                href="https://www.instagram.com/denvercontactimprov"
+                href="https://www.instagram.com/artoflivingci"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-warm hover:text-warm-light transition-colors"

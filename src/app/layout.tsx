@@ -104,7 +104,7 @@ export default function RootLayout({
                 addressCountry: "US",
               },
               sameAs: [
-                "https://www.instagram.com/denvercontactimprov",
+                "https://www.instagram.com/artoflivingci",
               ],
               areaServed: {
                 "@type": "City",

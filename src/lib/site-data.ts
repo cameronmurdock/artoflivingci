@@ -1,6 +1,6 @@
 export const contactInfo = {
-  instagram: "https://www.instagram.com/denvercontactimprov",
-  instagramHandle: "@denvercontactimprov",
+  instagram: "https://www.instagram.com/artoflivingci",
+  instagramHandle: "@artoflivingci",
   textNumber: "754-308-4617",
   rawPhone: "7543084617",
   venmo: "@Michael-Bernal-333",
