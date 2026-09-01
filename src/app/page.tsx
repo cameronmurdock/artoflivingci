@@ -5,11 +5,10 @@ import { Testimonials } from "@/components/testimonials";
 import { imagePath } from "@/lib/paths";
 
 const DESCRIPTION_PARAGRAPHS = [
-  "In Denver, we gather to move, to listen with our bodies, to meet uncertainty with curiosity and care.",
-  "Contact Improvisation is our language, a place to practice presence, collaboration, and the quiet courage of leaning on one another.",
-  "Our weekly jam, co-founded and held by a group of ten space holders, is a space to play, explore, and be fully seen.",
-  "For details about the jam, please visit denvercontactjam.com (coming soon)",
-  "Come dance with us, everyone is welcome!",
+  "We gather to move, to listen with our bodies, and to meet uncertainty with curiosity and care.",
+  "Contact Improvisation is our language — a practice of presence, collaboration, and the quiet courage of leaning on one another.",
+  "Art of Living CI is a space to play, explore, and be fully seen. Every gathering is held with intention, warmth, and a deep commitment to community.",
+  "Come dance with us — everyone is welcome.",
 ];
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src={imagePath("/images/hero-main.jpg")}
-            alt="Denver Contact Improv community dancing"
+            alt="Art of Living CI community dancing"
             fill
             className="object-cover"
             priority
@@ -49,31 +48,31 @@ export default function Home() {
               textShadow: "0 10px 28px rgba(255, 248, 239, 0.18)",
             }}
           >
-            <span className="text-foreground">DENVER</span>
+            <span className="text-foreground">Art of Living CI</span>
           </h1>
           <h2
-            className="mb-8 animate-fade-up text-5xl font-light text-warm md:text-6xl lg:text-7xl"
+            className="mb-8 animate-fade-up text-4xl font-light text-warm md:text-5xl lg:text-6xl"
             style={{
               fontFamily: "var(--font-playfair)",
               animationDelay: "0.1s",
               textShadow: "0 10px 24px rgba(255, 248, 239, 0.14)",
             }}
           >
-            Contact Improv
+            Contact Improvisation
           </h2>
           <p
             className="mx-auto max-w-2xl animate-fade-up text-xl leading-relaxed text-foreground/88 md:text-2xl font-medium"
             style={{ animationDelay: "0.2s" }}
           >
-            A place to practice, be supported, and grow.
+            A place to move, connect, and come alive.
           </p>
           <p
             className="mx-auto mt-4 max-w-2xl animate-fade-up text-lg leading-relaxed text-foreground/75 md:text-xl"
             style={{ animationDelay: "0.25s" }}
           >
-            Beginner-friendly Contact Improvisation classes and a welcoming
-            dance community in Denver, CO. Offering weekly gatherings and
-            immersive experiences rooted in belonging.
+            Beginner-friendly Contact Improvisation classes, workshops, and a
+            welcoming movement community. Offering weekly gatherings and
+            immersive experiences rooted in belonging, presence, and play.
           </p>
 
           <div
@@ -114,14 +113,14 @@ export default function Home() {
             className="text-2xl md:text-3xl font-bold mb-6 text-foreground"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Contact Improvisation Classes in Denver
+            What Is Art of Living CI?
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
-            Denver Contact Improv offers weekly Contact Improvisation classes,
-            workshops, movement practices, and community events in Denver,
-            Colorado. Whether you&apos;re new to contact improv or an experienced
-            mover, our classes help cultivate presence, connection, creativity,
-            and embodied awareness.
+            Art of Living CI offers Contact Improvisation classes, workshops,
+            movement practices, and community gatherings. Whether you&apos;re
+            brand new to contact improv or a seasoned mover, our events are
+            designed to cultivate presence, connection, creativity, and embodied
+            awareness — in a space that is warm, safe, and deeply welcoming.
           </p>
         </div>
       </section>
@@ -132,7 +131,7 @@ export default function Home() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
               src={imagePath("/images/landing-group.jpg")}
-              alt="Denver Contact Improv community group photo"
+              alt="Art of Living CI community group photo"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
