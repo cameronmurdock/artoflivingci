@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   // Absolute base for canonical and og URLs emitted by Next.
   metadataBase: new URL("https://denvercontactimprov.com"),
   title: {
-    default: "Denver Contact Improv — Contact Improvisation Classes, Jams & Community in Denver, CO",
-    template: "%s :: Denver Contact Improv",
+    default: "Art of Living CI — Contact Improvisation Series with Michael Bernal in Denver, CO",
+    template: "%s :: Art of Living CI",
   },
   description:
-    "Denver Contact Improv offers beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, Colorado. Join our welcoming movement community rooted in connection, belonging, and embodied presence.",
+    "Art of Living CI is Michael Bernal's multi-week Contact Improvisation (contact improv dance) series in Denver, Colorado: beginner-friendly classes and immersive gatherings rooted in presence, belonging, and play.",
   keywords: [
     "contact improvisation",
     "contact improv",
@@ -48,20 +48,20 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     images: [{ url: "/images/mentorship.jpg", width: 1200, height: 630, alt: "Contact Improvisation in Denver, Colorado" }],
-    title: "Denver Contact Improv — Contact Improvisation Classes & Community",
+    title: "Art of Living CI — Contact Improvisation Series in Denver",
     description:
-      "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO. Offering weekly gatherings and immersive experiences rooted in belonging.",
+      "Michael Bernal's multi-week Contact Improvisation series in Denver, CO. Beginner-friendly, rooted in presence, belonging, and play.",
     url: "https://denvercontactimprov.com",
-    siteName: "Denver Contact Improv",
+    siteName: "Art of Living CI",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     images: ["/images/mentorship.jpg"],
-    title: "Denver Contact Improv — Contact Improvisation Classes & Community",
+    title: "Art of Living CI — Contact Improvisation Series in Denver",
     description:
-      "Beginner-friendly Contact Improvisation classes, jams, workshops, and community events in Denver, CO.",
+      "Michael Bernal's multi-week Contact Improvisation series in Denver, CO. Beginner-friendly and rooted in belonging.",
   },
   alternates: {
     canonical: "https://denvercontactimprov.com",
